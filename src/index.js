@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import Badge from './components/Badge';
+import './index.css'
 
 // React == Javascript
 // JSX is a mix between HTML, CSS and javascript that is interpreted before it's send it to the browser
