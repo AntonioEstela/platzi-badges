@@ -1,7 +1,7 @@
 import React from 'react';
 
-import twitterLogo from '../img/Twitter-logo.svg'
-import avatar from '../img/avatar.png'
+import twitterLogo from './img/Twitter-logo.svg'
+import avatar from './img/avatar.png'
 import './Badge.css';
 
 const headerLogoUrl = "https://raw.githubusercontent.com/Sparragus/platzi-badges/master/src/images/badge-header.svg"

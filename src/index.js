@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Badge from './components/Badge';
+import Badge from './components/Badge/Badge.js';
 import './index.css'
 
 // React == Javascript
