@@ -3,20 +3,22 @@
 * {
     font-family: 'Inter', sans-serif;
 }
-.badge {
+
+.container.myBadge {
+    padding: 0;
+}
+
+.myBadge {
     position: relative;
     height: 420px;
-    width: 500px;
     border-radius: 10px;
-    margin: 0;
-    padding: 0;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
     -webkit-box-shadow: 5px 2px 18px 3px rgba(0,0,0,0.26); 
     box-shadow: 5px 2px 18px 3px rgba(0,0,0,0.26);
 }
 
-.badge__header {
+.myBadge__header {
     background-image: linear-gradient( 102.1deg,  rgba(96,221,142,1) 8.7%, rgba(24,138,141,1) 88.1% );
     display: flex;
     justify-content: center;
@@ -25,16 +27,16 @@
     width: 100%;
 }
 
-.badge__content--name {
+.myBadge__content--name {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    margin-left: 40px;
+    margin-left: -40px;
     margin-top: 10px;
 }
 
-.badge__content--name h1 {
+.myBadge__content--name h1 {
     font-family: 'Rubik', sans-serif;
     margin-left: 10px;
     color: #6eb329;
@@ -43,12 +45,12 @@
     text-transform: uppercase;
 }
 
-.badge__content--name img {
+.myBadge__content--name img {
     height: 200px;
     clip-path: circle(90px at center);
 }
 
-.badge__content--info {
+.myBadge__content--info {
     margin: 10px 0;
     padding: 0;
     background-color: rgb(240, 240, 240);
@@ -58,13 +60,13 @@
     align-items: center;
 }
 
-.badge__content--info__title h4 {
+.myBadge__content--info__title h4 {
     font-weight: 400;
     margin: 10px 0;
     padding: 0;
 }
 
-.badge__content--info__twitter {
+.myBadge__content--info__twitter {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -72,33 +74,33 @@
     margin-bottom: 10px;
 }
 
-.badge__content--info__twitter img{
+.myBadge__content--info__twitter img{
     height: 20px;
     margin-right: 5px;
 }
 
-.badge__content--info__twitter .flag {
+.myBadge__content--info__twitter .flag {
     clip-path: circle(10px at center);
 }
 
-.badge__content--info__twitter a {
+.myBadge__content--info__twitter a {
     color: black;
     font-weight: 400;
     text-decoration: none;
 }
 
-.badge__content--info__twitter a:hover {
+.myBadge__content--info__twitter a:hover {
     text-decoration: underline;
 }
 
-.badge__footer {
+.myBadge__footer {
     position: absolute;
-    bottom: 30px;
+    bottom: 20px;
     height: 20px;
     width: 100%;
 }
 
-.badge__footer p {
+.myBadge__footer p {
     text-align: center;
     font-weight: 600;
     color: #6eb329;

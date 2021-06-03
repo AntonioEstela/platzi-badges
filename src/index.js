@@ -1,16 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Badge from './components/Badge/Badge.js';
-import './index.css'
+import BadgeNew from "./pages/BadgeNew/BadgeNew.js";
+import "../node_modules/bootstrap/dist/css/bootstrap.css";
+import "./index.css";
 
 // React == Javascript
 // JSX is a mix between HTML, CSS and javascript that is interpreted before it's send it to the browser
 
 // We can write HTML syntax thanks to JSX wich is imported with React
-const element = (
-  <Badge />
-);
+const element = <BadgeNew />;
 
 // A great feature that JSX offers is to use javascript expressions into HTML code
 // Example:

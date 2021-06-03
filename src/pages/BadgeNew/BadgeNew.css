@@ -1,0 +1,14 @@
+.BadgeNew__hero {
+    background-color: black;
+    background-image: url(https://raw.githubusercontent.com/Sparragus/platzi-badges/master/src/images/stars.svg);
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.BadgeNew__hero img {
+    margin-left: 50px;
+    height: 100px;
+}
